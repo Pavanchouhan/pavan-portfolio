@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pavan Chouhan Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #fdfbfb, #ebedee);
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #87CEEB, #00BFFF);
+      padding: 40px 20px;
+      text-align: center;
+      color: white;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-bottom: 20px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 10px 18px;
+      border-radius: 6px;
+      transition: all 0.3s ease;
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    nav a:hover {
+      background: white;
+      color: #2b5876;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #2c3e50;
+      margin-bottom: 25px;
+      font-size: 2.2em;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 20px;
+      line-height: 1.8em;
+    }
+
+    .project {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 12px;
+      box-shadow: 0 6px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .project:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+    }
+
+    .project h3 {
+      color: #2b5876;
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #2b5876;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Pavan Chouhan</h1>
+  <p>Diploma Computer Engineering Student | Software Developer</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section id="about">
+  <h2>About Me</h2>
+  <p>
+    I'm currently pursuing a Diploma in Computer Engineering at Trinity Polytechnic, Pune. I enjoy coding in C, Java, and Python, and I love building real-world applications. I'm looking forward to starting my career as a software developer.
+  </p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>C, C++, Java, Python, SQL</li>
+    <li>Problem Solving, Team Leadership</li>
+  </ul>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="project">
+    <h3>Student Record Management System (C++)</h3>
+    <p>Console-based app to manage student data (Add, Delete, Search, Display).</p>
+  </div>
+  <div class="project">
+    <h3>Library Management System (Java)</h3>
+    <p>Java GUI app to issue, return, and track library books.</p>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>Email: <a href="mailto:pavanchouhan00707@gmail.com">pavanchouhan00707@gmail.com</a></p>
+  <p>Phone: <a href="tel:+917420830429">7420830429</a></p>
+  <p>Location: Saswad, Pune, India</p>
+</section>
+
+</body>
+</html>
